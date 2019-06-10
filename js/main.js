@@ -5,7 +5,11 @@ for(let i = 0; i < scrollElems.length; i++){
   const elem = scrollElems[i];
   
     elem.addEventListener('click',function(e) {
+      if (!e.target.hash) {
+        return;
+      }
       e.preventDefault();
+      
       
       const scrollElemId = e.target.href.split('#')[1];
       
