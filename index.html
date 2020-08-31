@@ -1,71 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Med ben amar | FullStack Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Med Ben amar | Software Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="style.css" />
 
-</head>
-<body>
-    <header></header>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="personal-details">
+        <div class="flex">
+          <div class="info">
+            <p>Avenue 5 Août, IMM Neifer</p>
+            <p>APP 5.2, 3000 Sfax, Tunisia</p>
+            <p>+216 54 619 194</p>
+            <p>mohamed.benamar@ieee.org</p>
+            <p>
+              <a href="https://github.com/virmak">https://github.com/virmak</a>
+            </p>
+          </div>
+          <div>
+            <h1 class="name">Med ben amar</h1>
+            <h3 class="title">Fullstack developer</h3>
+          </div>
+        </div>
+
+        <img class="profile-pic" src="img/profile2.png" alt="" />
+      </div>
+    </header>
+
     <main>
-        <div id="landing">
+      <section class="left-section">
+        <section>
+          <h1 class="section-title">Professional Experience</h1>
 
-            <h1>Hello, I'm <span>Mohamed Ben Amar</span></h1>
-            <h2>I'm a full-stack web developer</h2>
+          <div class="experience">
+            <p>
+              Spark-it, Sfax — Software developer in test (End of study
+              internship)
+            </p>
+            <p>February 2020 - July 2020</p>
+            <p>
+              Development of a test automation framework and a Domain Speciﬁc
+              Language
+            </p>
+          </div>
 
-            <a href="#contact-me" class="call-action">Let's Talk</a>
-        
-        </div>
+          <div class="experience">
+            <p>Innovation formation, Sfax — Trainer</p>
+            <p>October 2019 - January 2020</p>
+            <p>Spring boot and Angular trainer</p>
+          </div>
 
-        <div id="about-me">
-            <h2>About Me</h2>
+          <div class="experience">
+            <p>Betplus, Sfax — Founder & Developer</p>
+            <p>August 2016 - March 2020</p>
+            <p>
+              Development and maintenance of an online sports betting web app
+              and APIs.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h1 class="section-title">Education</h1>
+          <div class="experience">
+            <p>Private Polytechnic Institute of Advanced Sciences IPSAS,</p>
+            <p>Sfax — Bachelor of Computer Science</p>
+            <p>September 2017 - September 2020</p>
+          </div>
+        </section>
+
+        <section>
+          <h1 class="section-title">Technical skills</h1>
+
+          <p>
+            <strong>Programming Languages:</strong>
+            Java, C#, Python, C/C++
+          </p>
+          <p>
+            <strong>Web Development:</strong>
+            JS/Node.js, ES6, TypeScript, PHP, HTML, CSS
+          </p>
+          <p>
+            <strong>Backend: </strong>
+            Spring, Express JS, Slim PHP, .NET Core, Flask
+          </p>
+          <p>
+            <strong>Frontend: </strong>
+            Angular, React-native, Ionic, WPF, WinForms
+          </p>
+          <p>
+            <strong>Database: </strong>
+            MySQL, MariaDB, MongoDb, PostgresDB, PL/SQL, Redis
+          </p>
+          <p>
+            <strong>Tools: </strong>
+            Git, SSH, Shell, Docker, Jenkins, Gulp, Webpack, Npm, Pip, <br />
+            Apache, Nginx, ANTLR, Gearman, RabbitMQ, Machine Learning, <br />
+            Keras, Tensorﬂow, Jupyter, Photoshop, Illustrator, VS Code, Visual
+            Studio, <br />IntelliJ Idea, Xcode, Arduino, UML
+          </p>
+        </section>
+
+        <section>
+          <h1 class="section-title">Projects</h1>
+
+          <div class="project">
             <div>
-                <img class="my-pic" src="assets/0.jpeg">
-                <p>Hello world! I'am Mohamed, a self-taught developer, and a computer science/business student based in Sfax, Tunisia. 
-                    With a 3 years of experience in developing web applications (Front/Back end), APIs and managing cloud servers. 
-                    Specializes in LAMP, MEAN Stacks with Python, C/C++, C#(ASP.NET Core, WinForms) and Java knowledge. 
-                    I've always had a passion for technology and learning, when i'm not coding i love attending conferences and meet more people, tinkering with electronics (IOT), playing guitar and drawing</p>
+              <div>
+                <h4>STAF</h4>
+              </div>
+              <div>
+                <a class="no-print" onclick="showProjectImages('staf')"
+                  ><i class="fas fa-images"></i
+                ></a>
+                <a class="no-print" href="https://github.com/virmak/staf"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
             </div>
-        </div>
+            <div>
+              <span
+                >Domain-specific language design & implementation, REST service
+                & a web IDE</span
+              >
+            </div>
+            <div>
+              Development of a test automation framework and a scripting
+              langauage <br />
+              written in java spring, ANTLR, selenium, angular
+            </div>
+          </div>
 
-        <div id="contact-me">
-            <h2>Contact Me</h2>
-            <i>I'd love to hear from you.</i>
+          <div class="project">
+            <div>
+              <h4>Betplus V2</h4>
+              <div>
+                <a class="no-print" onclick="showProjectImages('betplus2')"
+                  ><i class="fas fa-images"></i
+                ></a>
+                <a class="no-print" href="http://betplus.in"
+                  ><i class="fas fa-external-link-square-alt"></i
+                ></a>
+              </div>
+            </div>
+            <div>
+              <span>Desktop & mobile web apps </span>
+            </div>
+            <div>
+              Built using docker, Spring boot, NodeJS, MongoDB and Angular
+            </div>
+          </div>
 
-            <form id="contact-form" action="mailto:mohamed.benamar@ieee.org">
-                <div class="form-group">
-                    <input type="text" id="name" placeholder="Name *">
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" placeholder="Email *">
-                </div>
-                <div class="form-group">
-                    <textarea name="" id=""  rows="10" placeholder="Message *"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" >Submit</button>
-                </div>
-            </form>
-        </div>
+          <div class="project">
+            <div>
+              <h4>Betplus V1</h4>
+              <div>
+                <a class="no-print" onclick="showProjectImages('betplus1')"
+                  ><i class="fas fa-images"></i
+                ></a>
+                <a class="no-print" href="#"
+                  ><i class="fas fa-external-link-square-alt"></i
+                ></a>
+              </div>
+            </div>
 
-        
+            <div>
+              <span>Web app & API </span>
+            </div>
+            <div>
+              Online sports betting system for bookmakers written in Slim PHP
+              and Angular.
+            </div>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>iOSea</h4>
+              <div>
+                <a
+                  class="no-print"
+                  href="https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/predators/project"
+                  ><i class="fas fa-external-link-square-alt"></i
+                ></a>
+                <a class="no-print" href="https://github.com/Virmak/iosea"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div>
+              <span> NASA Space Apps 2019 - 2nd place, Global Nominee </span>
+            </div>
+            <div>
+              Sea level rise impact visualization tool using NASA’s SRTM
+              satellite data, written in python <br />
+              and LeafletJS
+            </div>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>Live Roulette</h4>
+              <div>
+                <a
+                  class="no-print"
+                  href="https://github.com/Virmak/roulette-frontend"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div>
+              <span>Web app game </span>
+            </div>
+            <div>
+              Real time live online casino game written in Typescript using
+              PIXI.js, passport.js, socket.io, Node.js, MongoDB
+            </div>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>Payroll Management</h4>
+              <div>
+                <a class="no-print" href="https://github.com/Virmak/IPSAS"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div>
+              <span> Desktop app </span>
+            </div>
+            <div>
+              Desktop app written in .Net Core WPF and SQL Server for teachers
+              payroll management
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="right-section">
+        <section>
+          <h1>Additional Info</h1>
+
+          <ul>
+            <li>Experience with MVC frameworkds</li>
+
+            <li>
+              Follow best pratices, clean code, <br />
+              clean architecture, SOLID, TDD
+            </li>
+
+            <li>Linux Administration</li>
+            <li>Experience with AWS</li>
+          </ul>
+        </section>
+        <section class="volunteering">
+          <h1>Volunteering</h1>
+
+          <div>
+            <div>
+              <p>IEEE Student Member</p>
+              <h3>IEEE Polytech Sfax SB</h3>
+              <p>SEPTEMBER 2018 - PRESENT</p>
+            </div>
+
+            <div>
+              <p>Media Manager / Trainer</p>
+              <h3>Microsoft Tech Club FSS</h3>
+              <p>SEPTEMBER 2015 - JUNE 2016</p>
+            </div>
+
+            <div>
+              <p>OGV & Marketing Member</p>
+              <h3>Aiesec Thyna</h3>
+              <p>SEPTEMBER 2016 - JUNE 2017</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="hackatons">
+          <h1>Hackatons</h1>
+
+          <div>
+            <p>1<sup>st</sup> Place - Hult Prize ISET 2020</p>
+            <p>2<sup>nd</sup> Place - Nasa Space Apps 2019</p>
+            <p>2<sup>nd</sup> Place - IEEE PES Week 2019</p>
+          </div>
+        </section>
+
+        <section class="hackatons">
+          <h1>Languages</h1>
+
+          <div>
+            <p><strong>Arabic</strong>: Native</p>
+            <p><strong>Technical english</strong>: Advanced</p>
+            <p><strong>French</strong>: Intermediate</p>
+          </div>
+        </section>
+
+        <section class="hackatons">
+            <h1>Interests</h1>
+  
+            <div>
+                <p>Technology</p>
+                <p>Conferences</p>
+                <p>Guitar</p>
+                <p>Drawing</p>
+            </div>
+          </section>
+      </section>
     </main>
+    <div id="overlay"></div>
+    <div class="container">
+      <span><i class="fas fa-chevron-left" onclick="previousImage()"></i></span>
+      <span><i class="fas fa-chevron-right" onclick="nextImage()"></i></span>
+      <!-- Close the image -->
+      <span onclick="closeImage()" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" />
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
 
     <footer>
-        <div class="social-medias">
-            <a href="https://github.com/virmak" target="_blank"><img height="32" width="32" src="assets/github.svg"></svg></a>
-            <a href="https://www.linkedin.com/in/mohamed-benamar/" target="_blank"><img height="32" width="32" src="assets/linkedin.svg"></svg></a> 
-            <img height="32" width="32" src="assets/twitter.svg"></svg>
-        </div>
-        <div><img height="15" width="15" src="assets/location.svg"></svg> Av 5 août Imb Neifar Etage 5 AP 5.2, Sfax, Tunisia</div>
-        <div><img height="15" width="15" src="assets/phone.svg"></svg> +216 54 619 194</div>
-        <div><img height="15" width="15" src="assets/email.svg"></svg> mohamed.benamar@ieee.org</div>
+        
+        <div class="info">
+            <p>Avenue 5 Août, IMM Neifer</p>
+            <p>APP 5.2, 3000 Sfax, Tunisia</p>
+            <p>+216 54 619 194</p>
+            <p>mohamed.benamar@ieee.org</p>
+            <p>
+              <a href="https://github.com/virmak">https://github.com/virmak</a>
+            </p>
+          </div>
     </footer>
-    
-    <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
