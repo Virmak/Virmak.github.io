@@ -1,38 +1,9 @@
-const projectImages = {
-    betplus1: {
-        currentIndex: 0,
-        imgs: [
-            'img/projects/betplus1/admin.365_coupons.png',
-            'img/projects/betplus1/admin.365_results.png',
-            'img/projects/betplus1/365.ovh_admin_coupons_edit.png',
-            'img/projects/betplus1/betplus_admin_users.png',
-            'img/projects/betplus1/betplusv1_login.png',
-        ]
-    },
-    betplus2:{ 
-        currentIndex: 0,
-        imgs: [
-            'img/projects/betplus2/betplus.in_.png',
-            'img/projects/betplus2/betplus.in_ login.png',
-            'img/projects/betplus2/mobile.betplus.in_coupon.png',
-            'img/projects/betplus2/mobile.betplus.in_event.png',
-            'img/projects/betplus2/mobile.betplus.in_slogin.png',
-            'img/projects/betplus2/mobile.betplus.in_sportall.png'
-        ]
-    },
-    staf: {
-        currentIndex: 0,
-        imgs: [
-            'img/projects/staf/127.0.0.1_4200_projects.png',
-            'img/projects/staf/127.0.0.1_4200_editor.png',
-            'img/projects/staf/127.0.0.1_4200_login.png',
-            'img/projects/staf/127.0.0.1_4200_logs.png',
-            'img/projects/staf/127.0.0.1_4200_settings.png',
-            'img/projects/staf/127.0.0.1_4200_test.png'
-        ]
-    }
-};
+'use strict';
+
+let projects;
 let currentProject;
+
+showProjects();
 
 document.addEventListener('keydown', e => {
     if (e.keyCode == 27) { // ESC
@@ -40,12 +11,20 @@ document.addEventListener('keydown', e => {
     }
 });
 
-function showProjectImages(project) {
-    currentProject = projectImages[project];
+document.querySelector('#overlay').addEventListener('click', function(e) {
+    closeImage();
+});
+
+function showProjectImages(name, event) {
+    currentProject = projects.find(p => p.name == name)
     currentProject.currentIndex = 0;
     document.querySelector('#overlay').style.display = 'block';
     document.querySelector('.container').style.display = 'flex';
     showImage();
+
+    if (event) {
+        event.preventDefault();
+    }
 }
 
 function showImage() {
@@ -73,4 +52,48 @@ function previousImage() {
         currentProject.currentIndex = currentProject.imgs.length - 1;
     }
     showImage();
+}
+
+function showProject(project) {
+    let projectHTML = `
+    <div class="project">
+        <div>
+            <h4>${project.name}</h4>
+            <div>`;
+
+    if (project.github) {
+        projectHTML +=  `<a target="_blank" href="${project.github}"><i class="fab fa-github"></i> ${project.github}</a>`;
+    }
+    if (project.link) {
+        projectHTML +=  `<a target="_blank" href="${project.link}"><i class="fas fa-link"></i> Link</a>`;
+    }
+    if (project.imgs) {
+        projectHTML +=  `<a target="_blank" href="https://virmak.github.io" onclick="showProjectImages('${project.name}', event)"><i class="fas fa-images"></i> Screenshots</a>`;
+    }
+           
+
+    projectHTML += `</div>
+        </div>
+        <div><ul>`;
+    
+    for (let task of project.tasks) {
+        projectHTML += `<li>${task}</li>`;
+    }
+    projectHTML += `
+        </ul>
+        </div>
+        <div class="stack">`;
+    for (const item of project.stack) {
+        projectHTML += `<div class="stack-item">${item}</div>`
+    }
+    projectHTML += `</div>
+    </div>`;
+
+    document.querySelector('#projects-container').innerHTML += projectHTML;
+}
+
+async function showProjects() {
+    const res = await fetch('./projects.json');
+    projects = await res.json();
+    projects.forEach(showProject);
 }

@@ -1,0 +1,170 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    --primary-color: #121212;
+    --secondary-color: #b7b7b7;
+    background-color: var(--primary-color);
+    color: #eee;
+    padding: 0 20px;
+    height: 100%;
+}
+body {
+    max-width: 1600px;
+    padding: 10px;
+
+}
+header {
+    padding: 30px;
+}
+
+header .title {
+    text-align: center;
+}
+
+header .title h1, header .title h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header .title h1 {
+    font-size: 2.5em;
+    color: #02dac5;
+}
+
+header .title img {
+    height: 200px;
+}
+
+.firstSection {
+    text-align: center;
+}
+.about p {
+    margin: 0;
+    text-align: center;
+}
+.about {
+    display: flex;
+    font-size: 1.5em;
+    min-height: 200px;
+    margin: 100px 0;
+}
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action p {
+    margin: 30px;
+}
+
+.go-resume {
+    text-align: center;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    max-width: 400px;
+    font-size: .9em;
+    padding: 5px 20px;
+    width: calc(100% - 40px);
+    
+}
+
+.go-resume:hover {
+    background-color: #02dac5;
+    color: #000000;
+}
+
+.go-resume h1 {
+    
+    text-align: center;
+}
+
+.typewriter {
+    display: none;
+}
+div.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    position: relative;
+    height: 100%;
+    box-sizing:border-box;
+}
+
+.project {
+    background-color: #222831;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    position: relative;
+    min-height: 300px;
+    width: 680px;
+}
+.project h3 {
+    color:  #21e6c1;
+}
+
+
+.project ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.project li {
+    background-color: #ececec;
+    padding: 5px;
+    width: fit-content;
+    color: #000;
+    border-radius: 25px;
+    margin: 5px 0 5px 10px;
+}
+
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.project .details {
+    text-align: right;
+    width: calc(100% - 40px);
+    position: absolute;
+    bottom: 20px;
+}
+
+.separator {
+    border-bottom: 1px solid #ffffff;
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 1060px) {
+    .project {
+        min-height: 500px;
+    }
+
+    .call-to-action {
+        
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .about {
+        margin: 30px;
+        font-size: 1em;
+    }
+
+    .title h1 {
+        font-size: 2em !important;
+    }
+}

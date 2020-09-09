@@ -1,0 +1,49 @@
+
+
+.personal-details {
+    display: block;
+    text-align: center;
+}
+
+.icons {
+    text-align: left;
+}
+
+.icons i {
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+section div {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    max-width: 970px;
+}
+
+.name-title {
+    margin-top: 40px;
+    font-size: 140%;
+}
+
+.title {
+    font-size: 1.32em;
+    color: var(--primary-color);
+}
+
+section p {
+    font-size: 1.4em;
+}
+
+footer {
+    display: block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    bottom: 0;
+}
+
+.info p {
+    text-align: center;
+}

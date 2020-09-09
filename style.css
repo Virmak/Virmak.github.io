@@ -9,6 +9,11 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  padding: 20px;
+}
+
+.print-only {
+  display: none;
 }
 
 .personal-details {
@@ -64,7 +69,7 @@ h3 {
 main {
   max-width: 970px;
   margin: auto;
-  padding: 50px 20px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -75,6 +80,10 @@ main .left-section {
 }
 main .right-section {
   text-align: left;
+}
+
+main .left-section p {
+  max-width: 650px;
 }
 
 main section h1 {
@@ -163,12 +172,11 @@ footer {
   padding: 20px 0;
 }
 
-ul {
+.right-section ul {
   padding: 20px;
 }
 
-.project {
-  padding: 20px 0;
+.project:first-child {
 }
 
 .project > div:nth-child(2) {
@@ -186,13 +194,26 @@ ul {
   font-style: italic;
 }
 
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stack-item {
+  padding: 2px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
 @media print {
   html {
-    font-size: 70%;
+    font-size: 65%;
   }
 
   main {
     justify-content: space-between;
+    
   }
 
   .left-section {
@@ -200,7 +221,6 @@ ul {
   }
   .right-section {
     max-width: 223px;
-    top: 30px;
     position: relative;
   }
 
@@ -208,8 +228,15 @@ ul {
     padding: 0;
   }
 
+  .project ul {
+    margin: 5px 0;
+  }
+
   .personal-details {
     padding: 0;
+  }
+  header {
+    padding: 15px 0;
   }
 
   .experience {
@@ -230,6 +257,14 @@ ul {
 
   .no-print {
     display: none;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  main .left-section p {
+    max-width: 500px;
   }
 }
 
@@ -304,7 +339,7 @@ ul {
   transform: translateY(-50%);
 }
 
-.project > div i {
+.project > div a {
   cursor: pointer;
   margin: 0 5px;
   color: #2559c1;

@@ -1,0 +1,141 @@
+[
+    {
+        "name": "STAF",
+        "info": "Domain-specific language design & implementation, REST service & a web IDE",
+        "description": "Development of a test automation framework and a scripting langauage supporting BDD <br /> written in java spring, ANTLR, selenium, angular",
+        "imgs": [
+            "img/projects/staf/127.0.0.1_4200_projects.png",
+            "img/projects/staf/127.0.0.1_4200_editor.png",
+            "img/projects/staf/127.0.0.1_4200_login.png",
+            "img/projects/staf/127.0.0.1_4200_logs.png",
+            "img/projects/staf/127.0.0.1_4200_settings.png",
+            "img/projects/staf/127.0.0.1_4200_test.png"
+        ],
+        "github": "https://github.com/virmak/staf",
+        "tasks": [
+            "Designed and developed a Domain-specific language to write test scripts",
+            "Developed an extensible test automation framework that supports running tests in parallel",
+            "Developed a backend API to manage the framework",
+            "Designed and developed a user-friendly web-based IDE with a feature-rich code editor"
+        ],
+        "stack": [
+            "Java",
+            "Spring boot",
+            "PostgreSQL",
+            "Angular",
+            "ANTLR",
+            "Selenium",
+            "Docker",
+            "Jenkins"
+
+        ]
+    },
+    {
+        "name": "Betplus V2",
+        "info": "Desktop & mobile web apps",
+        "description": "Built using docker, Spring boot, NodeJS, MongoDB and Angular",
+        "imgs": [
+            "img/projects/betplus2/betplus.in_.png",
+            "img/projects/betplus2/betplus.in_ login.png",
+            "img/projects/betplus2/mobile.betplus.in_coupon.png",
+            "img/projects/betplus2/mobile.betplus.in_event.png",
+            "img/projects/betplus2/mobile.betplus.in_slogin.png",
+            "img/projects/betplus2/mobile.betplus.in_sportall.png"
+        ],
+        "link": "http://betplus.in",
+        "tasks": [
+            "Designed and developed desktop and mobile web apps",
+            "Developed a backend API with JWT authentication",
+            "Developed a Sport data API",
+            "Deployed using docker and Nginx on AWS (microservices)"
+        ],
+        "stack": [
+            "Spring boot",
+            "Node.js",
+            "MongoDB",
+            "Angular"
+        ]
+    },
+    {
+        "name": "Betplus V1",
+        "info": "Web app & API",
+        "description": "Online sports betting system for bookmakers written in Slim PHP and Angular",
+        "imgs": [
+            "img/projects/betplus1/admin.365_coupons.png",
+            "img/projects/betplus1/admin.365_results.png",
+            "img/projects/betplus1/365.ovh_admin_coupons_edit.png",
+            "img/projects/betplus1/betplus_admin_users.png",
+            "img/projects/betplus1/betplusv1_login.png"
+        ],
+        "link": "https://365.ovh",
+        "tasks": [
+            "Defined user requirements",
+            "Developed backend for a sport betting web app",
+            "Designed and developed a back-office application",
+            "Developed a concurrent web scraper to retrieve sport data",
+            "Developed a chrome extension to help with sport data entry",
+            "Maintained, fixed bugs and implemented new features"
+        ],
+        "stack": [
+            "PHP7",
+            "PHPUnit",
+            "SlimPHP",
+            "Eloquent",
+            "Twig",
+            "Guzzle",
+            "MariaDB",
+            "MongoDB",
+            "Gearman",
+            "Angular"
+        ]
+    },
+    {
+        "name": "iOsea",
+        "info": "NASA Space Apps 2019 - 2nd place, Global Nominee",
+        "description": "Sea level rise impact visualization tool using NASA’s SRTM satellite data, written in python and LeafletJS",
+        "github": "https://github.com/virmak/iosea",
+        "link": "https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/predators/project",
+        "tasks": [
+            "Developed a tool to read a raw Nasa's sattelite data and convert it to Json",
+            "Developed a map visualizing sea water level based on satellite data"
+        ],
+        "stack": [
+            "Python",
+            "Flask",
+            "Leaflet.js"
+        ]
+    },
+    {
+        "name": "Live roulette",
+        "info": "Web app game",
+        "description": "Real time live online casino game written in Typescript using PIXI.js, passport.js, socket.io, Node.js, MongoDB",
+        "github": "https://github.com/virmak/roulette-frontend",
+        "tasks": [
+            "Developed a frontend for a web game using PIXI.js",
+            "Developed backend with web socket for real-time communication"
+        ],
+        "stack": [
+            "Express.js",
+            "PIXI.js",
+            "Socket.io",
+            "Node.js",
+            "Passport.js",
+            "MongoDB"
+        ]
+    },
+    {
+        "name": "Payroll Management",
+        "info": "Desktop app",
+        "description": "Desktop app written in .Net Core WPF and SQL Server for teachers payroll management",
+        "github": "https://github.com/virmak/ipsas",
+        "tasks": [
+            "Defined user requirements",
+            "Designed and implemented a desktop app using WPF and SQL Server"
+        ],
+        "stack": [
+            ".Net Core",
+            "WPF",
+            "SQL Server"
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Med Ben amar | Software Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./cvstyle.css" />
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="personal-details">
+
+
+        <div class="icons">
+            <i class="fab fa-github" style="color: white;"></i>
+            <i class="fas fa-envelope-open" style="color: white;"></i>
+            <i class="fab fa-linkedin" style="color: white;"></i>
+        </div>
+
+        <img class="profile-pic" src="img/profile2.png" alt="" />
+      </div>
+    </header>
+    <section>
+        
+      <div>
+        <div class="name-title">
+            <h1 class="name">Med ben amar</h1>
+            <h3 class="title">Fullstack developer</h3>
+          </div>
+
+          <p>
+            Hi, my name is Mohamed and I am a software developer. I have been developing websites and applications for around 4 years using different stacks and technologies. I specialize in full-stack development and cloud servers.
+          </p>
+      </div>
+    </section>
+    <div id="overlay"></div>
+    <div class="container">
+      <span><i class="fas fa-chevron-left" onclick="previousImage()"></i></span>
+      <span><i class="fas fa-chevron-right" onclick="nextImage()"></i></span>
+      <!-- Close the image -->
+      <span onclick="closeImage()" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" />
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
+
+    <footer>
+        
+        <div class="info">
+            <p>Avenue 5 Août, IMM Neifer</p>
+            <p>APP 5.2, 3000 Sfax, Tunisia</p>
+            <p>+216 54 619 194</p>
+            <p>mohamed.benamar@ieee.org</p>
+            <p>
+              <a target="_blank" href="https://github.com/virmak">https://github.com/virmak</a>
+            </p>
+          </div>
+    </footer>
+  </body>
+</html>
