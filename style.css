@@ -201,7 +201,7 @@ footer {
 
 .stack-item {
   padding: 2px;
-  margin: 0 5px;
+  margin: 0 5px 5px 0;
   border-radius: 5px;
   border: 1px solid #eee;
 }
@@ -265,6 +265,10 @@ footer {
 
   main .left-section p {
     max-width: 500px;
+  }
+
+  .stack-item {
+    margin: 0 5px;
   }
 }
 
