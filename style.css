@@ -390,12 +390,17 @@ footer {
     justify-content: space-around;
   }
 
-  .right-section {
+  main .right-section {
     width: 100%;
+    text-align: center;
   }
 
   .left-section {
     max-width: 100% !important;
     width: 100%;
+  }
+
+  .right-section ul {
+    list-style: none;
   }
 }
