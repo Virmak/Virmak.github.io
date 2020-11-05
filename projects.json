@@ -91,6 +91,39 @@
         ]
     },
     {
+        "name": "Bet POS",
+        "info": "Web application",
+        "description": "Point of Sale web application for betting shops",
+        "link": "http://shop.365.ovh",
+        "tasks": [
+            "Defined user requirements",
+            "Developed a RESTful API using Spring boot",
+            "Developed JWT authentication using Spring security",
+            "Used Spring data JPA to persist data",
+            "Used Docker and Github Actions for CI/CD",
+            "Developed the frontend using Angular 9 and VMWare Clarity design framework"
+
+        ],
+        "stack": [
+            "Java",
+            "Spring boot",
+            "Spring Data",
+            "Spring security",
+            "JPA",
+            "Hibernate",
+            "MySQL",
+            "Angular",
+            "Github Actions"
+        ],
+        "imgs": [
+            "img/projects/betpos/shop.365.ovh_dashboard.png",
+            "img/projects/betpos/shop.365.ovh_customers.png",
+            "img/projects/betpos/shop.365.ovh_history.png",
+            "img/projects/betpos/shop.365.ovh_create.png",
+            "img/projects/betpos/shop.365.ovh_login.png"
+        ]
+    },
+    {
         "name": "iOsea",
         "info": "NASA Space Apps 2019 - 2nd place, Global Nominee",
         "description": "Sea level rise impact visualization tool using NASA’s SRTM satellite data, written in python and LeafletJS",
@@ -104,6 +137,10 @@
             "Python",
             "Flask",
             "Leaflet.js"
+        ],
+        "imgs": [
+            "img/projects/iosea/map.png",
+            "img/projects/iosea/elevation.png"
         ]
     },
     {
