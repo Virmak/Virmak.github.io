@@ -45,13 +45,15 @@
         "link": "http://betplus.in",
         "tasks": [
             "Designed and developed desktop and mobile web apps",
-            "Developed a backend API with JWT authentication",
-            "Developed a Sport data API",
-            "Deployed using docker and Nginx on AWS (microservices)"
+            "Developed a backend API with JWT authentication using Spring boot",
+            "Developed a Sport data API using Node.js",
+            "Deployed using docker-compose and Nginx on AWS"
         ],
         "stack": [
             "Spring boot",
+            "Spring Data Mongo",
             "Node.js",
+            "Mongoose",
             "MongoDB",
             "Angular"
         ]
@@ -108,7 +110,7 @@
             "Java",
             "Spring boot",
             "Spring Data",
-            "Spring security",
+            "Spring Security",
             "JPA",
             "Hibernate",
             "MySQL",
