@@ -25,7 +25,7 @@ class Landing extends Component {
                     </div>
         
                 <div className="actions">
-                        <div className="call-to-action btn"><a href="/resume/">Get in touch</a></div>
+                        <div className="call-to-action btn"><a href="/resume/">See my resume</a></div>
                         <div>or</div>
                         <div>
                             <a href="#experiences"  style={seeMyWorkStyles}>See my work
