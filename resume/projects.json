@@ -1,6 +1,7 @@
 [
     {
         "name": "STAF",
+        "role": "SDET - Software Developer in Test",
         "info": "Domain-specific language design & implementation, REST service & a web IDE",
         "description": "Development of a test automation framework and a scripting langauage supporting BDD <br /> written in java spring, ANTLR, selenium, angular",
         "imgs": [
