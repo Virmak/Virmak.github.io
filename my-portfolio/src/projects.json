@@ -218,6 +218,33 @@
                 "WPF",
                 "SQL Server"
             ]
+        },
+        {
+            "role": "Designer",
+            "name": "Creative work",
+            "info": "Web app design and prototypes",
+            "description": "A collection of web designs",
+            "github": "https://github.com/virmak/ipsas",
+            "stack": [
+                "HTML",
+                "CSS",
+                "Figma",
+                "Adobe XD",
+                "Abobe Photoshop",
+                "Adobe Illustrator"
+            ],
+            "tasks": [
+                "Web design using Photoshop and Figma",
+                "Mobile app prototype using Adobe XD",
+                "Logo design using Adobe AI"
+            ],
+            "imgs": [
+                "img/projects/creative/betplus.png",
+                "img/projects/creative/greenfarm.png",
+                "img/projects/creative/publy.png",
+                "img/projects/creative/sfaxi.png",
+                "img/projects/creative/upspace_mockup.png"
+            ]
         }
     ]
 }
