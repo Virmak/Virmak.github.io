@@ -18,10 +18,8 @@ class App extends Component {
           <h1 className="section-title">About me</h1>
           <div className="content">
             <p>
-              Hi! I’m a Mohamed, I'm a software developer with 4 years of
-              experience developing full-stack applications and managing cloud
-              infrastructure, with a good knowledge of front-end technologies
-              and an eye for design
+            I'm Mohamed, I'm a full-stack software developer with more than 4 years of experience developing and maintaining web apps, APIs, scrapers, and managing cloud infrastructure. 
+            As a passionate programmer, I love building things and turn ideas into reality, I’ve joined up on multiple occasions with cross-disciplinary team members, where we developed prize-winning ideas within 24 hours in hackathons. I’ve written software for different kinds of things, like IoT devices, small games, web, and mobile apps. 
             </p>
           </div>
         </section>
