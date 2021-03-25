@@ -33,6 +33,32 @@
     ],
     "projects": [
         {
+            "name": "Pro Real Estate",
+            "role": "Fullstack Software Developer",
+            "info": "Fullstack Web Application",
+            "description": "Design & Development of a real estate data analytics platform, written in Nest.js microservices architecture, RabbitMQ, Docker, PostgresDB, Angular 10",
+            "imgs": [],
+            "tasks": [
+                "Designed & developed a microservices architecture backend",
+                "Designed & developed frontend",
+                "Developed multiple concurrent real estate data scrapers",
+                "Developed user resource permission authorization",
+                "Developed an automated CI/CD workflows",
+                "Database query optimization"
+            ],
+            "stack": [
+                "Typescript",
+                "Nest.js",
+                "Angular",
+                "TypeORM",
+                "PostgresDB",
+                "Docker",
+                "RabbitMQ",
+                "Redis",
+                "Github Actions"
+            ]
+        },
+        {
             "name": "STAF",
             "role": "SDET",
             "info": "Domain-specific language design & implementation, REST service & a web IDE",
