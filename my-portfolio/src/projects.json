@@ -37,7 +37,18 @@
             "role": "Fullstack Software Developer",
             "info": "Fullstack Web Application",
             "description": "Design & Development of a real estate data analytics platform, written in Nest.js microservices architecture, RabbitMQ, Docker, PostgresDB, Angular 10",
-            "imgs": [],
+            "imgs": [
+                "img/projects/pro_real_estate/permission.png",
+                "img/projects/pro_real_estate/no_permission.png",
+                "img/projects/pro_real_estate/proxy.png",
+                "img/projects/pro_real_estate/rightmove_scraper.png",
+                "img/projects/pro_real_estate/scraper.png",
+                "img/projects/pro_real_estate/property_listing.png",
+                "img/projects/pro_real_estate/agent.png",
+                "img/projects/pro_real_estate/analytics.png",
+                "img/projects/pro_real_estate/listings.png",
+                "img/projects/pro_real_estate/loading.png"
+            ],
             "tasks": [
                 "Designed & developed a microservices architecture backend",
                 "Designed & developed frontend",
