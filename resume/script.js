@@ -94,6 +94,6 @@ function showProject(project) {
 
 async function showProjects() {
     const res = await fetch('/my-portfolio/src/projects.json');
-    portfolio = await res.json();
+    const portfolio = await res.json();
     portfolio.projects.forEach(showProject);
 }
