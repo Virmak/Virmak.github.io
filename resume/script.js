@@ -93,7 +93,7 @@ function showProject(project) {
 }
 
 async function showProjects() {
-    const res = await fetch('./projects.json');
+    const res = await fetch('/my-portfolio/src/projects.json');
     projects = await res.json();
     projects.forEach(showProject);
 }

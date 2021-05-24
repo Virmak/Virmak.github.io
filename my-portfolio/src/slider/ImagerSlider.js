@@ -1,29 +1,21 @@
 import { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 class ImageSlider extends Component {
-    render() {
-        let imageGallery = null;
-        if (this.props.images) {
-            const images = (this.props.images || []).map(img => {
-                const lastSlashIndex = img.lastIndexOf('/');
-                const imageName = img.substring(lastSlashIndex + 1);
-                const imageDirectory = img.substring(0, lastSlashIndex);
-                return {
-                    original: img,
-                    thumbnail: imageDirectory + '/thumbs/' + imageName
-                };
-            });
-            imageGallery = [<ImageGallery  key={images[0]}  items={images} />];
-        }
-       
-        return (
-            <div style={{maxWidth: '70vw',  position: 'relative', left:'50%', transform:'translateX(-50%)'}}>
-                
-            {imageGallery}
-            </div>
-        );
-    }
+  render() {
+    return (
+        <Carousel>
+           {(this.props.images || []).map(img => {
+            return (
+              <div key={img}>
+                <img src={img} />
+                <p className="legend">Legend 1</p>
+              </div>
+            )
+        })}
+        </Carousel>
+    );
 }
-
+}
 export default ImageSlider;

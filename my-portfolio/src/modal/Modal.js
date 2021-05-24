@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
+
 class Modal extends Component {
     render() {
         let gitRepo = null, liveLink = null;
@@ -57,9 +58,6 @@ class Modal extends Component {
                         </div>
                     </div>
                     <div className="modal-body">
-
-
-
 
                         <ImageSlider images={this.props.project.imgs} />
                     </div>

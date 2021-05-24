@@ -22,7 +22,7 @@ class Cards extends Component {
                     
                     <FontAwesomeIcon icon={SKILLS_ICONS[category.name]} size="4x"></FontAwesomeIcon>
                     <h3>{category.name}</h3>
-                    <p>{category.value}<div className="tooltip-text">{category.value}</div></p>
+                    <div>{category.value}<div className="tooltip-text">{category.value}</div></div>
                 </div>
             )
         });

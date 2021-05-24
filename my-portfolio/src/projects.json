@@ -1,304 +1,331 @@
 {
-    "accounts": {
-      "github": "https://github.com/virmak",
-      "linkedin": "https://www.linkedin.com/in/mohamed-benamar",
-      "email": "mailto:mohamed.benamar@ieee.org",
-      "twitter": "https://twitter.com"
+  "accounts": {
+    "github": "https://github.com/virmak",
+    "linkedin": "https://www.linkedin.com/in/mohamed-benamar",
+    "email": "mailto:mohamed.benamar@ieee.org",
+    "twitter": "https://twitter.com"
+  },
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "value": "Java, C#, Javascript, Python, C/C++"
     },
-    "skills": [
-      {
-        "name": "Programming Languages",
-        "value": "Java, C#, Javascript, Python, C/C++"
-      },
-      {
-        "name": "Web Development",
-        "value": "JS/Node.js, ES6, TypeScript, PHP, HTML, CSS"
-      },
-      {
-        "name": "Frameworks",
-        "value": "Spring, Express JS, Slim Php, .NET Core, Flask"
-      },
-      {
-        "name": "Frontend & Libraries",
-        "value": " Angular, React-native, Ionic, Material UI, Kendo UI, Clarity design, PhoneGap/Apache Cordova, WPF, WinForms, Electron jQuery, Twig, Eloquent, PIXI.js"
-      },
-      {
-        "name": "Databases",
-        "value": "MySQL, MariaDB, MongoDb, PostgresDB, PL/SQL, Redis"
-      },
-      {
-        "name": "Tools",
-        "value": "Git, SSH, Shell, Docker, Jenkins, Gulp, Webpack, Apache, Nginx, ANTLR, Gearman, RabbitMQ, Puppeteer, Selenium, WebDriver, Cucumber, JUnit, TestNG, Mockito, PHPUnit, Keras, Jupyter, Photoshop, Illustrator, UML"
-      }
-    ],
-    "projects": [
-      {
-        "name": "Planning Permissions Portal",
-        "role": "Fullstack Developer",
-        "info": "Serverless Application Development",
-        "description": "Design & Development of a planning permissions platform, written in Angular, Python and Node.JS hosted on AWS",
-        "stack": [
-          "AWS Lambda",
-          "DynamoDB",
-          "Elasticsearch",
-          "S3",
-          "Serverless",
-          "SQS",
-          "Cognito",
-          "Amplify",
-          "Angular",
-          "Python",
-          "Node.js",
-          "Docker"
-        ],
-        "tasks":[
-            "Developed an event-driven, serverless application on AWS",
-            "Developed a serverless scraper using Scrapy, Lambda, DynamoDB, SQS, S3 triggered by CloudWatch events",
-            "Developed a function to index different types of documents (DOCX, Scanned PDF, emails) into elasticsearch",
-            "Developed an advanced planning applications search engine using Elasticsearch",
-            "Developed an email based notification system, giving users the ability to track planning permissions updates"
-        ]
-      },
-      {
-        "name": "Pro Real Estate",
-        "role": "Fullstack Software Developer",
-        "info": "Fullstack Web Application",
-        "description": "Design & Development of a real estate data analytics platform, written in Nest.js microservices architecture, RabbitMQ, Docker, PostgresDB, Angular 10",
-        "imgs": [
-          "img/projects/pro_real_estate/permission.png",
-          "img/projects/pro_real_estate/no_permission.png",
-          "img/projects/pro_real_estate/proxy.png",
-          "img/projects/pro_real_estate/rightmove_scraper.png",
-          "img/projects/pro_real_estate/scraper.png",
-          "img/projects/pro_real_estate/property_listing.png",
-          "img/projects/pro_real_estate/agent.png",
-          "img/projects/pro_real_estate/analytics.png",
-          "img/projects/pro_real_estate/listings.png",
-          "img/projects/pro_real_estate/loading.png"
-        ],
-        "tasks": [
-          "Designed & developed a microservices architecture backend",
-          "Designed & developed frontend",
-          "Developed multiple concurrent real estate data scrapers",
-          "Developed user resources permission authorization",
-          "Developed an automated CI/CD workflows",
-          "Database query optimization"
-        ],
-        "stack": [
-          "Typescript",
-          "Nest.js",
-          "Angular",
-          "TypeORM",
-          "PostgresDB",
-          "Docker",
-          "RabbitMQ",
-          "Redis",
-          "Github Actions"
-        ]
-      },
-      {
-        "name": "STAF",
-        "role": "SDET",
-        "info": "Domain-specific language design & implementation, REST service & a web IDE",
-        "description": "Development of a test automation framework and a scripting langauage supporting BDD written in java spring, ANTLR, selenium, angular",
-        "imgs": [
-          "img/projects/staf/127.0.0.1_4200_projects.png",
-          "img/projects/staf/127.0.0.1_4200_editor.png",
-          "img/projects/staf/127.0.0.1_4200_login.png",
-          "img/projects/staf/127.0.0.1_4200_logs.png",
-          "img/projects/staf/127.0.0.1_4200_settings.png",
-          "img/projects/staf/127.0.0.1_4200_test.png"
-        ],
-        "github": "https://github.com/virmak/staf",
-        "tasks": [
-          "Designed and developed a Domain-specific language to write test scripts",
-          "Developed a test automation framework that supports running tests in parallel",
-          "Developed a backend API to manage the framework",
-          "Designed and developed a user-friendly web-based IDE with a feature-rich code editor"
-        ],
-        "stack": [
-          "Java",
-          "Spring boot",
-          "PostgreSQL",
-          "Angular",
-          "ANTLR",
-          "Selenium",
-          "Docker",
-          "Jenkins"
-        ]
-      },
-      {
-        "name": "Betplus V2",
-        "info": "Desktop & mobile web apps",
-        "role": "Fullstack Software Developer",
-        "description": "Online sports betting pltaform Built using docker, Spring boot, NodeJS, MongoDB and Angular",
-        "imgs": [
-          {"src":"img/projects/betplus2/betplus.in_.png", "thumbnail": "img/projects/betplus2/thumbs/betplus.in_.png"},
-          {"src":"img/projects/betplus2/betplus.in_ login.png", "thumbnail": "img/projects/betplus2/thumbs/betplus.in_ login.png"},
-          {"src":"img/projects/betplus2/mobile.betplus.in_coupon.png", "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_coupon.png"},
-          {"src":"img/projects/betplus2/mobile.betplus.in_event.png", "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_event.png"},
-          {"src":"img/projects/betplus2/mobile.betplus.in_slogin.png", "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_slogin.png"},
-          {"src":"img/projects/betplus2/mobile.betplus.in_sportall.png", "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_sportall.png"}
-        ],
-        "link": "http://betplus.in",
-        "tasks": [
-          "Designed and developed desktop frontend",
-          "Designed and developed mobile frontend",
-          "Developed a backend API with JWT authentication using Spring boot",
-          "Developed a Sport data API using Node.js",
-          "Deployed using docker-compose and Nginx on AWS"
-        ],
-        "stack": [
-          "Spring boot",
-          "Spring Data",
-          "Spring Security",
-          "Node.js",
-          "Mongoose",
-          "MongoDB",
-          "Angular"
-        ]
-      },
-      {
-        "name": "Betplus V1",
-        "info": "Web app & API",
-        "role": "Fullstack Software Developer",
-        "description": "Online sports betting system for bookmakers written in Slim PHP and Angular",
-        "imgs": [
-          "img/projects/betplus1/admin.365_coupons.png",
-          "img/projects/betplus1/admin.365_results.png",
-          "img/projects/betplus1/365.ovh_admin_coupons_edit.png",
-          "img/projects/betplus1/betplus_admin_users.png",
-          "img/projects/betplus1/betplusv1_login.png"
-        ],
-        "link": "https://365.ovh",
-        "tasks": [
-          "Defined user requirements",
-          "Developed backend for a sport betting web app",
-          "Designed and developed a back-office application",
-          "Developed a concurrent web scraper to retrieve sport data",
-          "Developed a chrome extension to help with sport data entry",
-          "Developed a platform to manage proxies server on multiple cloud providers",
-          "Maintained, fixed bugs and implemented new features"
-        ],
-        "stack": [
-          "PHP7",
-          "PHPUnit",
-          "SlimPHP",
-          "Eloquent",
-          "Twig",
-          "Guzzle",
-          "MariaDB",
-          "MongoDB",
-          "Gearman",
-          "Angular"
-        ]
-      },
-      {
-        "name": "Bet POS",
-        "info": "Web application",
-        "role": "Fullstack Software Developer",
-        "description": "Point of Sale web application for betting shops",
-        "link": "http://shop.365.ovh",
-        "tasks": [
-          "Defined user requirements",
-          "Developed a RESTful API using Spring boot",
-          "Developed JWT authentication using Spring security",
-          "Used Spring data JPA to persist data",
-          "Used Docker and Github Actions for CI/CD",
-          "Developed the frontend using Angular 9 and VMWare Clarity design framework"
-        ],
-        "stack": [
-          "Java",
-          "Spring boot",
-          "Spring Data",
-          "Spring Security",
-          "JPA",
-          "Hibernate",
-          "MySQL",
-          "Angular",
-          "Github Actions"
-        ],
-        "imgs": [
-          "img/projects/betpos/shop.365.ovh_dashboard.png",
-          "img/projects/betpos/shop.365.ovh_customers.png",
-          "img/projects/betpos/shop.365.ovh_history.png",
-          "img/projects/betpos/shop.365.ovh_create.png",
-          "img/projects/betpos/shop.365.ovh_login.png"
-        ]
-      },
-      {
-        "role": "Designer",
-        "name": "Creative work",
-        "info": "Web app design and prototypes",
-        "description": "A collection of web designs",
-        "github": "https://github.com/virmak/ipsas",
-        "stack": [
-          "HTML",
-          "CSS",
-          "Figma",
-          "Adobe XD",
-          "Abobe Photoshop",
-          "Adobe Illustrator"
-        ],
-        "tasks": [
-          "Web design using Photoshop and Figma",
-          "Mobile app prototype using Adobe XD",
-          "Logo design using Adobe AI"
-        ],
-        "imgs": [
-          "img/projects/creative/betplus.png",
-          "img/projects/creative/greenfarm.png",
-          "img/projects/creative/publy.png",
-          "img/projects/creative/sfaxi.png",
-          "img/projects/creative/upspace_mockup.png"
-        ]
-      },
-      {
-        "role": "Fullstack Software Developer",
-        "name": "iOsea",
-        "info": "NASA Space Apps 2019 - 2nd place, Global Nominee",
-        "description": "Sea level rise impact visualization tool using NASA’s SRTM satellite data, written in python and LeafletJS",
-        "github": "https://github.com/virmak/iosea",
-        "link": "https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/predators/project",
-        "tasks": [
-          "Developed a tool to read a raw Nasa's sattelite data and convert it to Json",
-          "Developed a map visualizing sea water level based on satellite data"
-        ],
-        "stack": ["Python", "Flask", "Leaflet.js"],
-        "imgs": ["img/projects/iosea/map.png", "img/projects/iosea/elevation.png"]
-      },
-      {
-        "role": "Fullstack Software Developer",
-        "name": "Live roulette",
-        "info": "Web app game",
-        "description": "Real time live online casino game written in Typescript using PIXI.js, passport.js, socket.io, Node.js, MongoDB",
-        "github": "https://github.com/virmak/roulette-frontend",
-        "tasks": [
-          "Developed a frontend for a web game using PIXI.js",
-          "Developed backend with web socket for real-time communication"
-        ],
-        "stack": [
-          "Express.js",
-          "PIXI.js",
-          "Socket.io",
-          "Node.js",
-          "Passport.js",
-          "MongoDB"
-        ]
-      },
-      {
-        "role": "Fullstack Software Developer",
-        "name": "Payroll Management",
-        "info": "Desktop app",
-        "description": "Desktop app written in .Net Core WPF and SQL Server for teachers payroll management",
-        "github": "https://github.com/virmak/ipsas",
-        "tasks": [
-          "Defined user requirements",
-          "Designed and implemented a desktop app using WPF and SQL Server"
-        ],
-        "stack": [".Net Core", "WPF", "SQL Server"]
-      }
-    ],
-    "summary": "Hi! I'm Mohamed, I'm a full-stack software developer with more than 4 years of experience developing and maintaining web apps, APIs, scrapers, and managing cloud infrastructure. As a passionate programmer, I love building things and turn ideas into reality, I’ve joined up on multiple occasions with cross-disciplinary team members, where we developed prize-winning ideas within 24 hours in hackathons. I’ve written software for different kinds of things, like IoT devices, small games, web, and mobile apps."
-  }
-  
+    {
+      "name": "Web Development",
+      "value": "JS/Node.js, ES6, TypeScript, PHP, HTML, CSS"
+    },
+    {
+      "name": "Frameworks",
+      "value": "Nest.js, Spring, Express JS, Slim Php, Serverless, Flask, Scrapy"
+    },
+    {
+      "name": "Frontend & Libraries",
+      "value": " Angular, React-native, Ionic, Material UI, Kendo UI, Clarity design, PhoneGap/Apache Cordova, WPF, WinForms, Electron jQuery, Twig, Eloquent, PIXI.js"
+    },
+    {
+      "name": "Databases",
+      "value": "MySQL, MariaDB, MongoDb, PostgresDB, DynamoDB, Elasticsearch, PL/SQL, Redis"
+    },
+    {
+      "name": "Tools",
+      "value": "Git, SSH, Shell, Docker, Jenkins, Gulp, Webpack, Apache, Nginx, ANTLR, Gearman, RabbitMQ, Puppeteer, Selenium, WebDriver, Cucumber, JUnit, TestNG, Mockito, PHPUnit, Keras, Jupyter, Photoshop, Illustrator, UML"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Planning Permissions Portal",
+      "role": "Fullstack Developer",
+      "info": "Serverless Application Development",
+      "description": "Design & Development of a planning permissions platform, written in Angular, Python and Node.JS hosted on AWS",
+      "stack": [
+        "AWS Lambda",
+        "DynamoDB",
+        "Elasticsearch",
+        "S3",
+        "Serverless",
+        "SQS",
+        "Event Bridge",
+        "Cognito",
+        "Amplify",
+        "Angular",
+        "Python",
+        "Node.js",
+        "Docker"
+      ],
+      "tasks": [
+        "Developed an event-driven, serverless microservices application on AWS",
+        "Followed Domain-Driven Design principles to reduce complexity of the system",
+        "Developed business critical components using TDD approach to reduce bugs and increase confidence in refactoring code",
+        "Led event-storming sessions with the client to extract the business domain ubiquitous language and identify bounded contexts",
+        "Reduced coupling between microservices using EventBridge bus for asynchronous communication between microservices",
+        "Developed a serverless scraper using Scrapy, Lambda, DynamoDB, SQS, S3, Docker triggered by CloudWatch events",
+        "Designed the data model using DynamoDB Single-Table design pattern",
+        "Developed a service to ingest different types of documents (DOCX, PDF, emails) into Elasticsearch",
+        "Built an OCR service using Lambda and custom Docker image with the Tesseract OCR python library",
+        "Developed an advanced planning applications search engine using an Elasticsearch cluster hosted on ElasticCloud",
+        "Developed an email based notification system, giving users the ability to track planning permissions updates",
+        "Developed a frontend application written in Angular, hosted on AWS using the Amplify framework",
+        "Developed a backend API written in Node.js, AWS Lambda, API Gateway",
+        "Implemented JWT authentication with 2FA using AWS Cognito user pools"
+      ]
+    },
+    {
+      "name": "Pro Real Estate",
+      "role": "Fullstack Software Developer",
+      "info": "Fullstack Web Application",
+      "description": "Design & Development of a real estate data analytics platform, written in Nest.js microservices architecture, RabbitMQ, Docker, PostgresDB, Angular 10",
+      "imgs": [
+        "img/projects/pro_real_estate/permission.png",
+        "img/projects/pro_real_estate/no_permission.png",
+        "img/projects/pro_real_estate/proxy.png",
+        "img/projects/pro_real_estate/rightmove_scraper.png",
+        "img/projects/pro_real_estate/scraper.png",
+        "img/projects/pro_real_estate/property_listing.png",
+        "img/projects/pro_real_estate/agent.png",
+        "img/projects/pro_real_estate/analytics.png",
+        "img/projects/pro_real_estate/listings.png",
+        "img/projects/pro_real_estate/loading.png"
+      ],
+      "tasks": [
+        "Designed & developed a microservices architecture backend",
+        "Designed & developed frontend",
+        "Developed multiple concurrent real estate data scrapers",
+        "Developed user resources permission authorization",
+        "Developed an automated CI/CD workflows",
+        "Database query optimization"
+      ],
+      "stack": [
+        "Typescript",
+        "Nest.js",
+        "Angular",
+        "TypeORM",
+        "PostgresDB",
+        "Docker",
+        "RabbitMQ",
+        "Redis",
+        "Github Actions"
+      ]
+    },
+    {
+      "name": "STAF",
+      "role": "SDET",
+      "info": "Domain-specific language design & implementation, REST service & a web IDE",
+      "description": "Development of a test automation framework and a scripting language supporting BDD written in java spring, ANTLR, selenium, angular",
+      "imgs": [
+        "img/projects/staf/127.0.0.1_4200_projects.png",
+        "img/projects/staf/127.0.0.1_4200_editor.png",
+        "img/projects/staf/127.0.0.1_4200_login.png",
+        "img/projects/staf/127.0.0.1_4200_logs.png",
+        "img/projects/staf/127.0.0.1_4200_settings.png",
+        "img/projects/staf/127.0.0.1_4200_test.png"
+      ],
+      "github": "https://github.com/virmak/staf",
+      "tasks": [
+        "Designed and developed a Domain-specific language to write test scripts",
+        "Developed a test automation framework that supports running tests in parallel",
+        "Developed a backend API to manage the framework",
+        "Designed and developed a user-friendly web-based IDE with a feature-rich code editor"
+      ],
+      "stack": [
+        "Java",
+        "Spring boot",
+        "PostgreSQL",
+        "Angular",
+        "ANTLR",
+        "Selenium",
+        "Docker",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Betplus V2",
+      "info": "Desktop & mobile web apps",
+      "role": "Fullstack Software Developer",
+      "description": "Online sports betting pltaform Built using docker, Spring boot, NodeJS, MongoDB and Angular",
+      "imgs": [
+        {
+          "src": "img/projects/betplus2/betplus.in_.png",
+          "thumbnail": "img/projects/betplus2/thumbs/betplus.in_.png"
+        },
+        {
+          "src": "img/projects/betplus2/betplus.in_ login.png",
+          "thumbnail": "img/projects/betplus2/thumbs/betplus.in_ login.png"
+        },
+        {
+          "src": "img/projects/betplus2/mobile.betplus.in_coupon.png",
+          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_coupon.png"
+        },
+        {
+          "src": "img/projects/betplus2/mobile.betplus.in_event.png",
+          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_event.png"
+        },
+        {
+          "src": "img/projects/betplus2/mobile.betplus.in_slogin.png",
+          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_slogin.png"
+        },
+        {
+          "src": "img/projects/betplus2/mobile.betplus.in_sportall.png",
+          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_sportall.png"
+        }
+      ],
+      "link": "http://betplus.in",
+      "tasks": [
+        "Designed and developed desktop frontend",
+        "Designed and developed mobile frontend",
+        "Developed a backend API with JWT authentication using Spring boot",
+        "Developed a Sport data API using Node.js",
+        "Deployed using docker-compose and Nginx on AWS"
+      ],
+      "stack": [
+        "Spring boot",
+        "Spring Data",
+        "Spring Security",
+        "Node.js",
+        "Mongoose",
+        "MongoDB",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Betplus V1",
+      "info": "Web app & API",
+      "role": "Fullstack Software Developer",
+      "description": "Online sports betting system for bookmakers written in Slim PHP and Angular",
+      "imgs": [
+        "img/projects/betplus1/admin.365_coupons.png",
+        "img/projects/betplus1/admin.365_results.png",
+        "img/projects/betplus1/365.ovh_admin_coupons_edit.png",
+        "img/projects/betplus1/betplus_admin_users.png",
+        "img/projects/betplus1/betplusv1_login.png"
+      ],
+      "link": "https://365.ovh",
+      "tasks": [
+        "Defined user requirements",
+        "Developed backend for a sport betting web app",
+        "Designed and developed a back-office application",
+        "Developed a concurrent web scraper to retrieve sport data",
+        "Developed a chrome extension to help with sport data entry",
+        "Developed a platform to manage proxies server on multiple cloud providers",
+        "Maintained, fixed bugs and implemented new features"
+      ],
+      "stack": [
+        "PHP7",
+        "PHPUnit",
+        "SlimPHP",
+        "Eloquent",
+        "Twig",
+        "Guzzle",
+        "MariaDB",
+        "MongoDB",
+        "Gearman",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Bet POS",
+      "info": "Web application",
+      "role": "Fullstack Software Developer",
+      "description": "Point of Sale web application for betting shops",
+      "link": "http://shop.365.ovh",
+      "tasks": [
+        "Defined user requirements",
+        "Developed a RESTful API using Spring boot",
+        "Developed JWT authentication using Spring security",
+        "Used Spring data JPA to persist data",
+        "Used Docker and Github Actions for CI/CD",
+        "Developed the frontend using Angular 9 and VMWare Clarity design framework"
+      ],
+      "stack": [
+        "Java",
+        "Spring boot",
+        "Spring Data",
+        "Spring Security",
+        "JPA",
+        "Hibernate",
+        "MySQL",
+        "Angular",
+        "Github Actions"
+      ],
+      "imgs": [
+        "img/projects/betpos/shop.365.ovh_dashboard.png",
+        "img/projects/betpos/shop.365.ovh_customers.png",
+        "img/projects/betpos/shop.365.ovh_history.png",
+        "img/projects/betpos/shop.365.ovh_create.png",
+        "img/projects/betpos/shop.365.ovh_login.png"
+      ]
+    },
+    {
+      "role": "Designer",
+      "name": "Creative work",
+      "info": "Web app design and prototypes",
+      "description": "A collection of web designs",
+      "github": "https://github.com/virmak/ipsas",
+      "stack": [
+        "HTML",
+        "CSS",
+        "Figma",
+        "Adobe XD",
+        "Abobe Photoshop",
+        "Adobe Illustrator"
+      ],
+      "tasks": [
+        "Web design using Photoshop and Figma",
+        "Mobile app prototype using Adobe XD",
+        "Logo design using Adobe AI"
+      ],
+      "imgs": [
+        "img/projects/creative/betplus.png",
+        "img/projects/creative/greenfarm.png",
+        "img/projects/creative/publy.png",
+        "img/projects/creative/sfaxi.png",
+        "img/projects/creative/upspace_mockup.png"
+      ]
+    },
+    {
+      "role": "Fullstack Software Developer",
+      "name": "iOsea",
+      "info": "NASA Space Apps 2019 - 2nd place, Global Nominee",
+      "description": "Sea level rise impact visualization tool using NASA’s SRTM satellite data, written in python and LeafletJS",
+      "github": "https://github.com/virmak/iosea",
+      "link": "https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/predators/project",
+      "tasks": [
+        "Developed a tool to read a raw Nasa's sattelite data and convert it to Json",
+        "Developed a map visualizing sea water level based on satellite data"
+      ],
+      "stack": ["Python", "Flask", "Leaflet.js"],
+      "imgs": ["img/projects/iosea/map.png", "img/projects/iosea/elevation.png"]
+    },
+    {
+      "role": "Fullstack Software Developer",
+      "name": "Live roulette",
+      "info": "Web app game",
+      "description": "Real time live online casino game written in Typescript using PIXI.js, passport.js, socket.io, Node.js, MongoDB",
+      "github": "https://github.com/virmak/roulette-frontend",
+      "tasks": [
+        "Developed a frontend for a web game using PIXI.js",
+        "Developed backend with web socket for real-time communication"
+      ],
+      "stack": [
+        "Express.js",
+        "PIXI.js",
+        "Socket.io",
+        "Node.js",
+        "Passport.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "role": "Fullstack Software Developer",
+      "name": "Payroll Management",
+      "info": "Desktop app",
+      "description": "Desktop app written in .Net Core WPF and SQL Server for teachers payroll management",
+      "github": "https://github.com/virmak/ipsas",
+      "tasks": [
+        "Defined user requirements",
+        "Designed and implemented a desktop app using WPF and SQL Server"
+      ],
+      "stack": [".Net Core", "WPF", "SQL Server"]
+    }
+  ],
+  "summary": "Hi! I'm Mohamed, I'm a full-stack software developer with more than 5 years of experience developing and maintaining web apps, APIs, scrapers on the cloud. As a passionate programmer, I love building things and turn ideas into reality, I’ve joined up on multiple occasions with cross-disciplinary team members, where we developed prize-winning ideas within 24 hours in hackathons. I’ve written software for different kinds of things, like IoT devices, small games, web, and mobile apps."
+}
