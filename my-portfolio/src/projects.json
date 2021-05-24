@@ -143,30 +143,12 @@
       "role": "Fullstack Software Developer",
       "description": "Online sports betting pltaform Built using docker, Spring boot, NodeJS, MongoDB and Angular",
       "imgs": [
-        {
-          "src": "img/projects/betplus2/betplus.in_.png",
-          "thumbnail": "img/projects/betplus2/thumbs/betplus.in_.png"
-        },
-        {
-          "src": "img/projects/betplus2/betplus.in_ login.png",
-          "thumbnail": "img/projects/betplus2/thumbs/betplus.in_ login.png"
-        },
-        {
-          "src": "img/projects/betplus2/mobile.betplus.in_coupon.png",
-          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_coupon.png"
-        },
-        {
-          "src": "img/projects/betplus2/mobile.betplus.in_event.png",
-          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_event.png"
-        },
-        {
-          "src": "img/projects/betplus2/mobile.betplus.in_slogin.png",
-          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_slogin.png"
-        },
-        {
-          "src": "img/projects/betplus2/mobile.betplus.in_sportall.png",
-          "thumbnail": "img/projects/betplus2/thumbs/mobile.betplus.in_sportall.png"
-        }
+          "img/projects/betplus2/betplus.in_.png",
+          "img/projects/betplus2/betplus.in_ login.png",
+          "img/projects/betplus2/mobile.betplus.in_coupon.png",
+          "img/projects/betplus2/mobile.betplus.in_event.png",
+          "img/projects/betplus2/mobile.betplus.in_slogin.png",
+          "img/projects/betplus2/mobile.betplus.in_sportall.png"
       ],
       "link": "http://betplus.in",
       "tasks": [
